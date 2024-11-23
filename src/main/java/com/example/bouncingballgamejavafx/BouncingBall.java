@@ -23,32 +23,70 @@ import java.util.Random;
 /** BouncingBall class to represent the bouncing ball game */
 public class BouncingBall extends Application {
 
+  /** Store the width of the game window */
   private static final int WIDTH = 800;
+
+  /** Store the height of the game window */
   private static final int HEIGHT = 600;
+
+  /** Store the radius of the ball */
   private static final double BALL_RADIUS = 20;
+
+  /** Store the speed increment */
   private static final double SPEED_INCREMENT = 0.2;
 
+  /** Store the ball speed in the x direction */
   private double ballSpeedX = 3;
+
+  /** Store the ball speed in the y direction */
   private double ballSpeedY = 3;
+
+  /** Store the ball x position */
   private double ballX = WIDTH / 2;
+
+  /** Store the ball y position */
   private double ballY = HEIGHT / 2;
 
+  /** Store the random object */
   private final Random random = new Random();
+
+  /** Store the ball color */
   private Color ballColor = Color.RED;
 
+  /** Store the score */
   private int score = 0;
+
+  /** Store the paused state */
   private boolean paused = false;
+
+  /** Store the target score */
   private int targetScore = 20 + random.nextInt(31); // Random target score between 20 and 50
+
+  /** Store the max speed */
   private double maxSpeed = 10 + random.nextInt(6); // Random max speed between 10 and 15
 
+  /** Store the speed label */
   private final Label speedLabel = new Label();
+
+  /** Store the score label */
   private final Label scoreLabel = new Label();
+
+  /** Store the max speed label */
   private final Label maxSpeedLabel = new Label();
+
+  /** Store the welcome scene */
   private Scene welcomeScene;
+
+  /** Store the game scene */
   private Scene gameScene;
+
+  /** Store the end scene */
   private Scene endScene;
 
+  /** Store the game loop */
   private AnimationTimer gameLoop;
+
+  /** Store the ball image */
   private Image ballImage;
 
   /**
