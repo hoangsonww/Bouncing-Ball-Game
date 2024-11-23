@@ -76,7 +76,10 @@ The Bouncing Ball game is a simple, interactive JavaFX application where a ball 
 ## Setup and Installation
 
 1. **Download JavaFX SDK**: Download the JavaFX SDK from the [OpenJFX](https://openjfx.io/) website and extract it to a known location on your machine.
-2. **Clone the Repository**: Clone this repository to your local machine using `git clone <repository-url>`.
+2. **Clone the Repository**: Clone this repository to your local machine using `git clone https://github.com/hoangsonww/Space-Invader-Game-JavaFX.git`.
+3. **Open the Project**: Open the project in your Java IDE (e.g., IntelliJ IDEA).
+4. **Configure JavaFX SDK**: Configure the JavaFX SDK in your IDE by adding it as a library to the project.
+5. **Run the Application**: Run the application using the IDE or Maven commands.
 
 ## Configuration
 
