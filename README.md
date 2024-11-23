@@ -3,6 +3,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
+- [How to Play](#how-to-play)
 - [User Interface](#user-interface)
   - [Welcome Screen](#welcome-screen)
   - [Game Interface](#game-interface)
@@ -20,6 +21,14 @@
 ## Overview
 
 The Bouncing Ball game is a simple, interactive JavaFX application where a ball bounces around the screen. Users can control the speed of the ball using the up and down arrow keys. The game demonstrates the use of JavaFX animation and event handling capabilities.
+
+## How to Play
+
+1. **Start the Game**: Run the application to start the game. The ball will start bouncing around the screen.
+2. **Objective**: Reach the number of bounces required to win the game without the ball going too fast.
+3. **Control the Ball Speed**: Use the UP and DOWN arrow keys to increase or decrease the ball speed, respectively.
+4. **Win or Lose**: If the ball reaches the required number of bounces without exceeding the maximum speed, you win. Otherwise, you lose.
+5. **Play Again**: After winning or losing, you can play the game again by clicking the "Play Again" button.
 
 ## User Interface
 
