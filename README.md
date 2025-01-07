@@ -5,6 +5,7 @@
 - [Overview](#overview)
 - [How to Play](#how-to-play)
 - [User Interface](#user-interface)
+  - [Demo GIF](#demo-gif)
   - [Welcome Screen](#welcome-screen)
   - [Game Interface](#game-interface)
   - [Win Screen](#win-screen)
@@ -31,6 +32,14 @@ The Bouncing Ball game is a simple, interactive JavaFX application where a ball 
 5. **Play Again**: After winning or losing, you can play the game again by clicking the "Play Again" button.
 
 ## User Interface
+
+### Demo GIF
+
+<p align="center" style="cursor: pointer">
+    <img src="img/demo.gif" alt="Bouncing Ball Game Demo" width="100%"/>
+</p>
+
+> Our apologies for the low quality of the GIF. The actual game interface is much smoother and visually appealing. Please try running the game on your machine for a better experience! 
 
 ### Welcome Screen
 
